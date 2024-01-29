@@ -64,6 +64,7 @@ namespace FruitSwap
 				RandomizeButtons();
 				score++;
 				timeLeft = 3;
+				lblTime.Text = timeLeft.ToString();
 			}
 			else
 			{
